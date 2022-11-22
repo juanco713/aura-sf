@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Components communication">
+        <div class="slds-p-horizontal_small">
+            <p> This is from an Aura Component: {dataReceived}</p>
+
+            <lightning-input class="dataToSend"></lightning-input>
+            <div class="slds-m-top_xx-small">
+                <lightning-button  variant="brand" label="Pass data to Aura Component" onclick={sendDataToAura}></lightning-button>
+            </div>
+        </div>
+    </lightning-card> 
+</template>
